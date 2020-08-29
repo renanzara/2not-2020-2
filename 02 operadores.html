@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // use strict impede que variaveis sejam declaradas 
+        // sem o uso de let, var ou const
+        // Innicializar variaveis diretamente é má pratica de programação
+        'use strict'
+
+        /*
+            OPERADORES RELACIONAIS
+            > MAIOR QUE
+            < MENOR QUE
+            >= MAIOR OU IGUAL QUE
+            <= MENOR OU IGUAL QUE
+
+        */
+
+       let a = 3, b = 6, c = '6' // Operador de atribuição
+
+       // OPERADOR DE IGUALDADE
+       // TESTANDO A IGUALDADE DE DUAS VARIAVEIS
+       // PARA TESTAR A IGUALDADE, usamos dois sinais de igual
+       //alert(a == b)  // false
+       //alert(b == c)    // true
+
+       // Operador de Igualdade Estrita ou
+       // "Exatamente igual"
+       //alert(b === c)   // false
+
+       // Operador de Diferença
+       //alert ( a != b)  // true
+       //alert (b != c)     // false
+
+       // Operador de Diferença Estrita ("exatamente diferente")
+       //alert (b !== c)  // true
+
+
+       /*
+
+            OPERADORES LOGICOS
+            && E logico (and)
+            || ou logico (or)
+            !  NÃO logico (not)
+
+        */
+       //alert(5 > 4 && 2 > 1)  // true
+
+       //alert(5 > 4 || 2 > 1)    // true
+
+       /*
+
+            CONVERSÃO DE NUMEROS PARA BOOLEANOS
+            0 -> será convertido para false
+            Qualquer valor não-zero -> conertido para true
+
+        */
+
+       // O operador not (!) tem uma precedencia muito alta
+       // (é interpretado primeiro) e, por isso, quase sempre
+       // é usado em parenteses
+       alert(!(5 > 4 && 2 > 1))
+
+       // PRECEDENCIA DOS OPERADORES LOGICOS
+       // 1º !
+       // 2º &&
+       // 3º ||
+
+
+
+
+
+
+        
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
